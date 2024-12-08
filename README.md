@@ -17,3 +17,5 @@ This project sets up the environment for a Retrieval Augmented Generation (RAG) 
    ```bash
    git clone https://github.com/your-repo/rag-system.git
    cd rag-system
+
+![Screenshot 2024-12-08 133559](https://github.com/user-attachments/assets/aafe1d0d-2dae-4aed-aec8-d03f598618a1)
