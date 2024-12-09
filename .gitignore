@@ -1,0 +1,12 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+
+# Ignore data files
+data/raw_data/*
+data/featurized_data/*
+data/db_data/*
+
+# Ignore Docker-related files
+docker-compose.yml
+Dockerfile

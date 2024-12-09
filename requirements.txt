@@ -1,0 +1,8 @@
+torch
+transformers
+gradio
+clearml
+pymongo
+qdrant-client
+datasets
+scikit-learn

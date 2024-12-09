@@ -1,0 +1,23 @@
+api:
+  # Set the API endpoint for ClearML
+  api_server: http://clearml_server:8008
+  web_server: http://clearml_server:8080
+  files_server: http://clearml_server:8081
+  # Your authentication credentials (optional, generated from ClearML UI)
+  credentials:
+    access_key: "655CV24T649XF7682XL4K5K93P712V"
+    secret_key: "C7Z7Ihd-UXptkuvAh_GzqtDGcsF9OWVeCecBy9bBNBq1-P8a3eyNwNR1PhWAtVSZxIQ"
+
+sdk:
+  # Optional: SDK specific configurations
+  storage_cache:
+    default_size: 512  # Cache size in MB
+  # Logging configurations (e.g., verbosity level)
+  log_level: INFO
+
+agent:
+  # Default execution environment for the agent
+  default_base_task_image: python:3.8  # Ensure compatibility with your app's Python version
+  venv_path: /root/.clearml/venvs
+  docker:
+    default_container: rag_app  # Define default container if orchestration needs specific one
