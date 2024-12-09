@@ -7,7 +7,7 @@ from transformers import AdamW
 from torch.optim.lr_scheduler import StepLR
 
 def load_data():
-    # This function loads your dataset (replace with actual dataset path)
+    #loads dataset
     dataset = load_dataset('./data/raw_data/ros2_docs.txt')
     return dataset
 
